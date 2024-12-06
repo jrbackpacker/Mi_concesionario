@@ -1,0 +1,54 @@
+<!-- activity_actualizar.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/background_color">
+
+    <!-- ListView para mostrar los coches -->
+    <ListView
+        android:id="@+id/lvCochesActualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Campos EditText para editar los detalles del coche -->
+    <EditText
+        android:id="@+id/etMarcaActualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Marca" />
+
+    <EditText
+        android:id="@+id/etModeloActualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Modelo" />
+
+    <EditText
+        android:id="@+id/etNumCVActualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Caballos"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etPrecioActualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Precio"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/etColorActualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Color" />
+
+    <!-- Botón para actualizar los datos -->
+    <Button
+        android:id="@+id/btnActualizarCoche"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Actualizar Coche" />
+</LinearLayout>

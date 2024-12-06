@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/background_color">
+
+    <!-- Botón Consultar (antes era Actualizar) -->
+    <Button
+        android:id="@+id/btnConsultar"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="8dp"
+        android:background="@drawable/btn_consultar"
+        android:layout_gravity="center"
+        android:contentDescription="@string/consultar"
+        android:tooltipText="@string/consultar" />
+
+    <!-- ListView para mostrar los coches -->
+    <ListView
+        android:id="@+id/lvCoches"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_listview_background" />
+
+
+    <!-- Fila horizontal para los botones -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp">
+
+        <!-- Botón Insertar -->
+        <Button
+            android:id="@+id/btnInsertar"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/btn_insertar"
+            android:contentDescription="@string/insertar"
+            android:tooltipText="@string/insertar" />
+
+        <!-- Botón Actualizar (antes era Consultar) -->
+        <Button
+            android:id="@+id/btnActualizar"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/btn_actualizar"
+            android:contentDescription="@string/actualizar"
+            android:tooltipText="@string/actualizar" />
+
+        <!-- Botón Borrar -->
+        <Button
+            android:id="@+id/btnBorrar"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/btn_borrar"
+            android:contentDescription="@string/borrar"
+            android:tooltipText="@string/borrar" />
+
+        <!-- Botón Borrar Campos -->
+
+    </LinearLayout>
+</LinearLayout>

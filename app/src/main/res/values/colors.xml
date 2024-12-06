@@ -1,0 +1,10 @@
+<resources>
+    <!-- Color de fondo claro -->
+    <color name="background_color">#bbdefb</color>
+
+    <!-- Color de texto oscuro con buen contraste -->
+    <color name="text_color">#000000</color>
+
+    <!-- Color de texto claro para fondo oscuro -->
+    <color name="light_text_color">#FFFFFF</color>
+</resources>
